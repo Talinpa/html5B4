@@ -41,9 +41,9 @@ test.start = function() {
 	layer.appendChild(sprite);
 
 	var anim = new lime.animation.Sequence(new lime.animation.Spawn(
-	        new lime.animation.MoveBy(200, 0).setDuration(1.5),
+	        new lime.animation.MoveBy(400, 0).setDuration(3),
 	        new lime.animation.ScaleBy(2),
-            new lime.animation.ColorTo(0,200,0)
+            new lime.animation.ColorTo(0,100,0)
             
 	    ),    new lime.animation.Spawn(
         	        new lime.animation.MoveBy(-200, 0).setDuration(1.5),
