@@ -54,7 +54,7 @@ test.start = function() {
 	sprite.runAction(new lime.animation.Loop(anim).setLimit(5));
 
 	var sprite = new lime.Sprite().setFill('#0c0').setSize(50, 50).setPosition(0, 100).setRenderer(lime.Renderer.CANVAS);
-	layer.appendChild(sprite);
+	//layer.appendChild(sprite);
 
 	var anim = new lime.animation.Spawn(
 	    new lime.animation.RotateBy(-90).setDuration(3).enableOptimizations(),
